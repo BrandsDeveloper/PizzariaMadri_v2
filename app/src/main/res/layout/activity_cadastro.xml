@@ -23,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pizzaria_logo_fulllaranja" />
+        app:srcCompat="@drawable/Pizzaria_Logo_fullLaranja" />
 
 
     <TextView
