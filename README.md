@@ -2,7 +2,7 @@
 
 ##### Esse projeto foi desenvolvido em 3 partes, consistindo em um aplicativo android, um cardápio online e um sistema que recebe os pedidos do aplicativo.
 
-![image](https://user-images.githubusercontent.com/76618716/170152561-55b853c8-224d-4aba-a510-79459ae3dfd4.png) ![image](https://user-images.githubusercontent.com/76618716/170152633-1e36b137-1b9e-4063-a3e9-17b6dfba9b2b.png)
+![GitHub top language](https://img.shields.io/github/languages/top/BrandsDeveloper/PizzariaMadri_v2) ![GitHub language count](https://img.shields.io/github/languages/count/BrandsDeveloper/PizzariaMadri_v2) ![GitHub repo size](https://img.shields.io/github/repo-size/BrandsDeveloper/PizzariaMadri_v2)
 
 ## Linguagens e Ferramentas utilizadas para a criação do App: 
 ```
