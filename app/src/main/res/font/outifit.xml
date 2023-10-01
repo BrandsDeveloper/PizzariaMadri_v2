@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="100"
+        android:font="@font/Outfit_Thin"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="200"
+        android:font="@font/Outfit_ExtraLight"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="300"
+        android:font="@font/Outfit_Light"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/Outfit_Regular"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="500"
+        android:font="@font/Outfit_Medium"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="600"
+        android:font="@font/Outfit_SemiBold"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="700"
+        android:font="@font/Outfit_Bold"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="800"
+        android:font="@font/Outfit_ExtraBold"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="900"
+        android:font="@font/Outfit_Black"/>
+
+</font-family>

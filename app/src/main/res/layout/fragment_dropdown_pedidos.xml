@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pedidos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.dropdownPedidos">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="300dp"
+            android:layout_height="109dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/dropImage2"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_border"
+                android:clipToOutline="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/cogumelo" />
+
+            <TextView
+                android:id="@+id/dropTitle2"
+                android:layout_width="108dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/out_regular"
+                android:text="@string/Cogumelos" />
+
+            <TextView
+                android:id="@+id/dropValue2"
+                android:layout_width="66dp"
+                android:layout_height="23dp"
+                android:layout_marginTop="42dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/out_regular"
+                android:text="@string/valorCogumelos" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSolicitar"
+            android:layout_width="187dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/out_regular"
+            android:text="@string/solicitarPedido"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

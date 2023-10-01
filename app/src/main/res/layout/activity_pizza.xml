@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dropdown_pedidos"
+        tools:context=".Pizza">
+
+
+        <ImageView
+            android:id="@+id/arrow01"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/close_24" />
+
+        <ImageView
+            android:id="@+id/pizzaImg"
+            android:layout_width="270dp"
+            android:layout_height="265dp"
+            android:layout_marginTop="60dp"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:background="@drawable/rounded_border"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pepperoni" />
+
+        <TextView
+            android:id="@+id/tituloPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/out_semibold"
+            android:text="Pizza de Pepperoni"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/pizzaImg" />
+
+        <TextView
+            android:id="@+id/descPizza"
+            android:layout_width="283dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/out_regular"
+            android:gravity="center_horizontal"
+            android:text="Ingredientes: massa, com molho e salsicha e com tudo que eu tenho direito e mais sei lá o que e é isso e ta tudo certo"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/tituloPizza" />
+
+        <Button
+            android:id="@+id/btnMedio"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/out_medium"
+            android:text="@string/M"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toStartOf="@+id/btnGrande"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toEndOf="@+id/btnPequeno"
+            app:layout_constraintTop_toBottomOf="@+id/descPizza" />
+
+        <TextView
+            android:id="@+id/titleGrande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/out_regular"
+            android:text="@string/Grande"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/btnGrande" />
+
+        <TextView
+            android:id="@+id/titleMedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/out_regular"
+            android:text="@string/Media"
+            app:layout_constraintEnd_toStartOf="@+id/titleGrande"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/titlePequeno"
+            app:layout_constraintTop_toBottomOf="@+id/btnMedio" />
+
+        <TextView
+            android:id="@+id/titlePequeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/out_regular"
+            android:text="@string/Pequeno"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/btnPequeno" />
+
+        <Button
+            android:id="@+id/btnPequeno"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/out_medium"
+            android:text="@string/P"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/descPizza" />
+
+        <Button
+            android:id="@+id/btnGrande"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/out_medium"
+            android:text="@string/G"
+            android:textColor="#FFFCFC"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintTop_toBottomOf="@+id/descPizza" />
+
+        <Button
+            android:id="@+id/btnCar"
+            android:layout_width="180dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="61dp"
+            android:layout_marginLeft="61dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/out_medium"
+            android:onClick="onClick"
+            android:text="@string/comprar"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline6"
+            app:layout_constraintStart_toEndOf="@+id/valorPizza"
+            app:layout_constraintTop_toBottomOf="@+id/titleMedio" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9026764" />
+
+        <TextView
+            android:id="@+id/valorPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="@font/out_regular"
+            android:text="35,00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline5"
+            app:layout_constraintTop_toBottomOf="@+id/titleMedio"
+            tools:ignore="MissingConstraints" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".envioPedido">
+
+        <ImageView
+            android:id="@+id/imageEnvio"
+            android:layout_width="0dp"
+            android:layout_height="157dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pizzaria_logo_fulllaranja" />
+
+        <EditText
+            android:id="@+id/nomeEnvio"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:required="true"
+            android:fontFamily="@font/out_light"
+            android:hint="Nome Completo"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/imageEnvio" />
+
+        <EditText
+            android:id="@+id/dddEnvio"
+            android:layout_width="85dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:required="true"
+            android:maxLength="2"
+            android:fontFamily="@font/out_light"
+            android:hint="DDD"
+            android:inputType="number|text"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/nomeEnvio" />
+
+        <EditText
+            android:id="@+id/telefoneEnvio"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:required="true"
+            android:maxLength="9"
+            android:fontFamily="@font/out_light"
+            android:hint="Telefone"
+            android:inputType="phone"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toEndOf="@+id/dddEnvio"
+            app:layout_constraintTop_toBottomOf="@+id/nomeEnvio" />
+
+        <EditText
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:required="true"
+            android:maxLength="8"
+            android:hint="CEP:"
+            android:inputType="textPostalAddress"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:required="true"
+            android:hint="Endereço:"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/telefoneEnvio" />
+
+        <TextView
+            android:id="@+id/envioPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/out_light"
+            android:text="@string/envioP"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+
+        <RadioGroup
+            android:id="@+id/entregaEnvio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/envioPage">
+
+            <RadioButton
+                android:id="@+id/deliveryEnvio"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:required="true"
+                android:fontFamily="@font/out_light"
+                android:text="Delivery" />
+
+            <RadioButton
+                android:id="@+id/localEnvio"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:required="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/out_light"
+                android:text="Retirar no local" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/formaPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/out_light"
+            android:text="@string/formaPagamento"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/entregaEnvio" />
+
+        <RadioGroup
+            android:id="@+id/pagamentoEnvio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/formaPage">
+
+            <RadioButton
+                android:id="@+id/dinheiroEnvio"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:fontFamily="@font/out_light"
+                android:required="true"
+                android:text="@string/Dinheiro" />
+
+            <RadioButton
+                android:id="@+id/maquinaEnvio"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/out_light"
+                android:required="true"
+                android:text="@string/Maquina" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/valorEnvio"
+            android:layout_width="104dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/out_light"
+            android:text="R$50,00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnEnvio"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/pizzaEnvio" />
+
+        <Button
+            android:id="@+id/btnEnvio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_rounded"
+            android:fontFamily="@font/out_light"
+            android:text="@string/Enviar"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guideline4"
+            app:layout_constraintStart_toStartOf="@+id/guideline3" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.1" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.9" />
+
+        <TextView
+            android:id="@+id/pizzaEnvio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/out_light"
+            android:text="@string/Cogumelos"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/pagamentoEnvio" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

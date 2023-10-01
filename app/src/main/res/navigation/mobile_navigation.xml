@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/page_home">
+
+    <fragment
+        android:id="@+id/page_home"
+        android:name="com.cursoandroid.pizzariamadri_tcc.fragments.Inicio"
+        android:label="@string/fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/page_menu"
+        android:name="com.cursoandroid.pizzariamadri_tcc.fragments.menu"
+        android:label="@string/fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/page_requests"
+        android:name="com.cursoandroid.pizzariamadri_tcc.fragments.pedidos"
+        android:label="@string/fragment_pedidos"
+        tools:layout="@layout/fragment_pedidos" />
+    <fragment
+        android:id="@+id/page_account"
+        android:name="com.cursoandroid.pizzariamadri_tcc.fragments.conta"
+        android:label="@string/fragment_conta"
+        tools:layout="@layout/fragment_conta" />
+
+</navigation>

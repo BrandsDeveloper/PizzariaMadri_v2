@@ -1,0 +1,318 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Pizzaria Madri</string>
+    <string name="login">login</string>
+    <string name="loading">loading</string>
+    <string name="logo">Logo Pizzaria</string>
+    <string name="P">P</string>
+    <string name="Pequeno">4 Pedaços</string>
+    <string name="M">M</string>
+    <string name="Media">8 Pedaços</string>
+    <string name="G">G</string>
+    <string name="Grande">12 Pedaços</string>
+    <string name="comprar">Adicionar a compra</string>
+    <string name="version">Versão 1.0.0</string>
+    <string name="copy" tools:ignore="TypographyDashes">© Copyright 2022-2023 Pizzaria Madri</string>
+    <!--  Titulo e Descriçãso de Politicas  -->
+    <string name="politics">Políticas de Privacidade e Segurança dos Dados da Pizzaria Madri</string>
+    <string name="politicsTxt">A Pizzaria Brasil, acredita que nosso sucesso está intimamente ligado aos nossos valores. Para nós, dedicação, qualidade e carinho com as pessoas são valores essenciais e por isso, desde o princípio, integram nossa cultura. Somos constituídos por pessoas para pessoas e como tal, tudo que diz respeito aos nossos clientes, colaboradores e parceiros nos importa, inclusive seus dados pessoais. Levamos a sério a proteção e segurança dos dados pessoais de todos os envolvidos em nossas operações, motivo pelo qual a coleta e o processamento de dados em nossos ambientes e sistemas é realizada apenas dentro do contexto da operação, com o objetivo de garantir e aprimorar a sua experiência. Possuímos lisura em todas as nossas relações e não monetizamos dados pessoais.
+\n Esta Política de Privacidade, em conjunto aos Termos de Uso, descreve e detalha nosso compromisso com a proteção e transparência no tratamento de dados pessoais, seja aqueles coletados por meio de nossas plataformas, na compra de nossos produtos, ou, ainda, no relacionamento com nossos parceiros.
+\n Se, após ler esta política e nossos termos de uso, você não entender ou concordar com algum ponto, pedimos que interrompa a navegação e entre em contato conosco, através do Tia Eda, teremos prazer de atendê-lo e principalmente de conversar sobre nossas ações direcionadas à Lei Geral de Proteção de Dados - LGPD.
+\n Falando sobre ela:
+    </string>
+    <string name="politics01Title">1. Você sabe quais dados são protegidos pela LGPD?</string>
+    <string name="politics02Title">2. Gostaria de saber quais dados pessoais utilizamos em nossas operações?</string>
+    <string name="politics03Title">3. O que são cookies?</string>
+    <string name="politics04Title">4. Por que precisamos dos dados pessoais?</string>
+    <string name="politics05Title">5. CONTROLADOR e OPERADOR, quem são os agentes de tratamento?</string>
+    <string name="politics06Title">6. Seus dados são compartilhados?</string>
+    <string name="politics07Title">7. Por quanto tempo utilizamos e armazenamos os dados pessoais?</string>
+    <string name="politics08Title">8.Titular de dados e seus direitos. Como exercê-los?</string>
+    <string name="politics09Title">9. Carinho e proteção, seus dados estão seguros com a gente?</string>
+    <string name="politics10Title">10. Encarregado de Proteção de Dados, temos?</string>
+    <string name="politics11Title">11. DISPOSIÇÕES GERAIS</string>
+    <!--  Texto de Politicas  -->
+    <string name="politics01">A Lei Geral de Proteção de Dados - LGPD (Lei nº 13.709/2018) veio para proteger os dados pessoais e dados pessoais sensíveis da pessoa física no Brasil, também chamada de titular de dados. \n
+            De acordo com a LGPD, “dado pessoal” é qualquer dado que identifique ou torne identificável uma pessoa física. Já o “dado pessoal sensível” é aquele que, por sua natureza, diz respeito a informações que merecem um cuidado maior, principalmente para proteção contra discriminações.\n
+            Quanto aos dados sensíveis, a LGPD determina que se enquadram nesse conceito dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, e dado genético ou biométrico, quando vinculados a uma pessoa física.
+</string>
+    <string name="politics02">O acesso a todas as funcionalidades de nossas plataformas, incluindo a compra de nossos produtos no sistema “delivery”, depende da coleta e compartilhamento de dados pessoais.
+É importante que você saiba que podem ser coletados diferentes tipos de dados pessoais, como dados de identificação do titular, dados de visitantes do site, dados dos colaboradores, dentre outros, a depender da utilização de nossa plataforma, ou mesmo das exigências da legislação trabalhista, em caso de colaboradores.
+Para atender sua solicitação ou realizar nossas operações podemos coletar os seguintes tipos de dados pessoais:
+a.	Dados de identificação e contato, como: nome completo, e-mail, CPF, celular, endereço e data de nascimento;
+b.	Dados de navegação, como: endereço de IP e páginas visitadas no nosso site;
+c.	Dados de geolocalização e de identificação dos aparelhos;
+d.	Dados de pagamento, como: número e/ou outras informações de cartão de crédito ou débito, além do histórico de pagamentos efetuados;
+e.	Dados de autenticação, como login e senha.
+f.	Dados biométricos, como: imagens do sistema de segurança de nossas lojas e estabelecimentos;
+No preenchimento das informações cadastrais, é importante que você (ou a pessoa autorizada), insira apenas   informações verdadeiras e atualizadas, já que não nos responsabilizamos pela verificação. A responsabilidade, em qualquer caso, civil e/ou criminal, é sua quanto à veracidade, exatidão e autenticidade das informações incluídas em nossos bancos de dados.
+Além dos dados mencionados acima, coletamos e armazenamos automaticamente informações sobre a sua atividade e navegação no site, mediante a utilização de cookies (veja mais detalhes no próximo tópico).
+Por fim, solicitamos que "Menores de idade" não façam compras e não pratiquem outros atos legais neste site e/ou aplicativos sem o consentimento dos pais ou responsáveis legais, exceto se permitido pela legislação local aplicável.
+</string>
+    <string name="politics03">Os cookies poderiam ser mais uma de nossas delícias (quem sabe já não são! Já procurou em nosso cardápio?), mas neste caso não são! Para nossa política e no contexto do mundo da tecnologia, o cookie é um pequeno arquivo de texto, colocado no seu dispositivo ou navegador, que permite a sua identificação enquanto usuário e o dispositivo utilizado.
+Nosso site utiliza cookies e outras tecnologias semelhantes para armazenar e gerenciar as suas preferências de navegação, habilitar conteúdos e coletar dados de análise e utilização de nossas plataformas digitais. O uso dessas tecnologias é muito comum em todas as páginas da internet.
+Os cookies que utilizamos podem desempenhar diferentes funções. Alguns são necessários e essenciais para a navegação e utilização dos recursos de nossas plataformas, outros coletam informações sobre como você utiliza o site e servem para melhorar o desempenho e a experiência de navegação. Por fim, os cookies funcionais relembram suas escolhas e preferências, personalizando a sua experiência no site.
+Em nosso site ou em qualquer outra página de internet, você poderá desabilitar os cookies através das configurações de seu navegador, instalando plug-ins disponíveis no mercado, ou ainda fazendo uso de outras tecnologias que entenda serem necessárias.
+</string>
+    <string name="politics04" tools:ignore="Typos">Via de regra, precisamos dos seus dados pessoais para atendimento de suas solicitações comerciais (quando está comprando nossas delícias) ou administrativas (quando nos aciona para conversar sobre qualquer tema que não seja relativo aos nossos produtos: funcionários, fornecedores, franquias, lojas, regulamentos, etc.). Cuidamos para que a coleta de todos os dados pessoais possua finalidade específica e se restrinja ao escopo da necessidade do tratamento.
+Assim, utilizamos as informações e os dados pessoais coletados para cumprir as seguintes finalidades:
+a.	Viabilizar a venda de nossos produtos;
+b.	Garantir a entrega de nossos produtos;
+c.	Registrar participação no programa de fidelidade ou outras promoções;
+d.	Registrar reclamações, elogios ou interações diversas;
+e.	Emitir documentos contábeis e fiscais;
+f.	Viabilizar acesso às redes Wifi;
+g.	Atender chamados e/ou pedidos de contatos, sempre que solicitado;
+h.	Operar nossos serviços, mantendo a qualidade e promovendo estatísticas gerais em relação à utilização de nossas plataformas e consumo de nossos produtos;
+a.	Informar sobre outros produtos e serviços disponíveis em nossa rede, garantindo sempre seu direito de fácil acesso ao descadastramento no momento que desejar;
+j.	Perguntar a sua opinião acerca do produto e/ou experiência em nossas plataformas ou restaurantes, bem como sobre potenciais serviços/produtos que possam ser interessantes para você;
+k.	Aprimorar a sua experiência com nossa rede através de constante personalização;
+xx.	Detectar, prevenir ou investigar possíveis incidentes de segurança ou fraudes./
+Também podemos utilizar os seus dados em conexão com nossos próprios serviços, seja para cumprir obrigações acessórias a que já nos comprometemos com você; para cumprir obrigações legais ou regulatórias que recaiam sobre nós; ou até mesmo para outros fins legítimos de nosso grupo, desde que sejam autorizados pela LGPD ou outras normas aplicáveis.
+</string>
+    <string name="politics05">A LGPD estabelece como agentes de tratamento dos dados pessoais as figuras do Controlador e do Operador, e ambos respondem pelo tratamento que realizam.
+Controlador é aquele que possui relação direta com as pessoas físicas e se responsabiliza por atender aos seus requerimentos. Ele detém poder de decisão sobre os dados tratados, indicando a forma, os meios utilizados e as bases legais que serão aplicadas a cada tratamento dos dados pessoais.
+Já o Operador é o “fornecedor”, geralmente uma outra empresa que executa o tratamento dos dados pessoais em nome do Controlador.
+Seremos controladores de seus dados sempre que você acessar nossas plataformas e/ou adquirir nossos produtos, bem como na relação com nossos colaboradores. Nesses casos, é nossa responsabilidade eleger adequadamente as bases legais condizentes com as finalidades previstas na presente política, assim como atender de forma direta às suas solicitações quanto aos direitos previstos na LGPD.
+</string>
+    <string name="politics06" tools:ignore="Typos">Nós podemos compartilhar seus dados pessoais com outras empresas que contribuam para melhorar ou facilitar as operações através do site, aplicativo ou sistema interno, como por exemplo: provedores de hospedagem de serviços em nuvem, ferramentas de gerenciamento de bancos de dados, gerenciamento de e-mails, fluxos internos e de atendimento aos usuários, dentre outros. /
+Também é possível que seus dados sejam compartilhados com outros aplicativos que contribuam na distribuição e expansão de nossa rede de delivery alimentício, como Uber Eats, IFood e Rappi.
+Além daqueles citados acima, ao fornecer seus dados pessoais através de cadastro em nosso site e/ou aplicativo, seus dados podem ser compartilhados entre grupos parceiros, como o Grupo Gennius, Mercato Express e Tendall Grill.
+Reforçamos que seus dados são muito importantes para nós e por isso nossos fornecedores passam por criteriosos processos de avaliação. Assim, nos comprometemos a contratar apenas parceiros que cumpram a legislação protetiva de dados, mediante a assinatura de acordos ou convênios com cláusulas específicas.
+É possível que você encontre em nossas plataformas links de páginas de terceiros. É importante que você compreenda que cada um desses sites conterá sua própria Política de Privacidade, não sendo a Pizzaria Madrid responsável pelo tratamento de dados em tais páginas.
+Alguns de nossos sistemas e servidores podem estar hospedados em território internacional, caracterizando a ocorrência de transferência internacional de dados pessoais. Nestes casos, nos comprometemos a contratar apenas fornecedores que adotem medidas de segurança e boas práticas compatíveis com o nível de proteção estabelecido pela legislação brasileira, conforme regulamentação pela Autoridade Nacional de Proteção de Dados - ANPD. Na falta de regulamentação específica, temos o cuidado e o compromisso de trabalhar somente com empresas aderentes às demais normas de proteção de dados, como a GDPR europeia, CCPA e CDPA americanas e The Privacy Act australiana; empresas cujos contratos contenham cláusulas específicas para as transferências; bem como a restringir a transferência apenas ao estritamente necessário para sua finalidade.
+Por fim, informamos que temos o compromisso de cooperar com as autoridades competentes e terceiros para garantir o cumprimento das leis, inclusive em matéria de proteção de direitos de propriedade industrial e intelectual, prevenção de fraudes, proteção de dados pessoais, dentre outros. Nesse contexto, se preciso, compartilharemos seus dados pessoais mediante requerimentos de autoridades judiciais ou governamentais competentes, no âmbito de investigações e processos conduzidos por estas, desde que não exista vedação legal estabelecendo o sigilo.
+</string>
+    <string name="politics07" tools:ignore="Typos">Respeitamos seus dados e por isso cuidamos para que eles permaneçam conosco somente pelo tempo necessário para cumprimento de cada uma das finalidades elencadas acima. Para tanto, seguimos os seguintes parâmetros para determinar o período de retenção e guarda dos seus dados pessoais:
+a.	período necessário para cumprimento do propósito da coleta;
+b.	momento em que você deixa de utilizar nossas plataformas digitais;
+c.	momento de revogação do consentimento ou solicitação de eliminação dos dados por você (isso somente se e quando a base legal para o tratamento de dados for o consentimento);
+d.	período para comprovação de cumprimento de deveres e obrigações legais, regulatórias, administrativas e/ou judiciais;
+e.	prazos legais, regulamentares, constantes de decisões judiciais ou determinados pela ANPD;
+f.	período de execução de contrato;
+g.	período para defesa ou exercício de direitos por uma de nossas empresas;
+</string>
+    <string name="politics08" tools:ignore="Typos">Pessoas sempre foram e continuam sendo nossa prioridade. Buscamos sua satisfação através da criação de produtos extraordinários e também na excelência no atendimento, seja em nossos restaurantes ou plataformas digitais. Isso inclui garantir o exercício integral de seus direitos como cidadão e ser humano!
+Saiba que como Titular de Dados, você possui os seguintes direitos:
+a.	Direito de confirmação: confirmar a existência de tratamento de seus dados pessoais;
+b.	Direito de acesso: solicitar detalhes de seus dados;
+c.	Direito a correção: corrigir ou remover eventuais dados pessoais que estejam incompletos, inexatos ou desatualizados;
+d.	Direito de anonimização, bloqueio ou eliminação: solicitar a anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com esta Política ou demais normas do ordenamento jurídico. Nesses casos, se houver anonimização, bloqueio ou exclusão de dados que prejudiquem sua manutenção em programas de fidelidade ou promoções, o contrato poderá ser rescindido;
+e.	Direito de informação: solicitar informações sobre com quais tipos de empresas compartilhamos os seus dados;
+f.	Direito de recusar marketing: solicitar o cancelamento de recebimento de nossas campanhas e materiais;
+g.	Direito de portabilidade de informações: após regulamentação pela ANPD ou havendo possibilidade técnica, você poderá solicitar que seus dados pessoais sejam transferidos para você ou para terceiros, salvo aqueles que já tenham sido anonimizados e excluídos de nossa base de dados e não infrinjam direitos de propriedade intelectual e/ou industrial nem sejam confidenciais;
+h.	Direito de revogação do consentimento: quando a base legal para o tratamento de dados for o consentimento, você poderá revogá-lo. É importante que você saiba que o cancelamento não afetará a utilização ou compartilhamento dos dados realizados anteriormente ao pedido de revogação.
+</string>
+    <string name="politics09" tools:ignore="Typos">Sei que já falamos, mas não custa repetir: seus dados são importantes para nós. Para protegê-los contra acesso ilegal, perda acidental, destruição ou danos, utilizamos tecnologias e procedimentos adequados sempre de acordo com o nível de risco e a finalidade almejada. Possuímos uma equipe responsável por gerenciar os dados pessoais em conformidade com as previsões legais, requisitos regulatórios, mudanças de tecnologia, dentre outros fatores relevantes que possam influenciar a proteção.
+Infelizmente, em razão da própria natureza da Internet, existe o risco de que terceiros mal-intencionados acessem indevidamente as informações armazenadas em nossos sistemas. Caso isso ocorra, tenha certeza de que não pouparemos esforços para remediação, bem como nos responsabilizaremos nos limites previstos na legislação vigente aplicável.
+Saiba que por esta política fica expressamente proibido o uso de qualquer dispositivo, software ou outro recurso que venha a interferir em nossas atividades e operações, tanto pelo site quanto por outras plataformas, sistemas ou bancos de dados. Caso seja identificada qualquer intromissão, tentativa, ou atividade que viole ou contrarie as leis de direito de propriedade intelectual e/ou as disposições estipuladas nessa Política, Termos de Uso e/ou leis vigentes aplicáveis, aí incluída a LGPD, o responsável estará sujeito às sanções aplicáveis, tais quais estejam previstas em lei ou previstas neste documento. O responsável deverá, ainda, indenizar por eventuais danos causados.
+</string>
+    <string name="politics10">Mais que uma pessoa, temos um time inteiro de profissionais dedicado à proteção de dados e privacidade.
+Caso tenha alguma questão específica que não tenha sido esclarecida nesta Política de Privacidade ou termos de uso, você poderá, como último recurso, entrar em contato com nosso Encarregado de Proteção de Dados, através [canal de atendimento]
+</string>
+    <string name="politics11" tools:ignore="Typos">O uso do nome Pizzaria Madri, do domínio https://fgts.liderfinanceira.com/PizzariaMadri/index.html (e ramificações), bem como os conteúdos das telas do site são propriedade da empresa e estão protegidos pelas leis e tratados internacionais de propriedade intelectual. Você não deverá usar indevidamente ou reproduzir, total ou parcialmente, tais conteúdos, salvo quando houver autorização expressa.
+No momento do cadastro em nossas plataformas você deverá ler, compreender e aceitar esta Política e respectivo termos de uso, no entanto, esta Política tem natureza de contrato de adesão e passa por revisões periódicas, sem que seja necessária à sua notificação prévia.
+Por isso, é importante que você sempre a consulte para saber se continua concordando com seus termos antes de seguir com a navegação.
+A Política de Privacidade do Pizzaria Madri está em conformidade e deverá ser interpretada com base nas leis vigentes na República Federativa do Brasil.
+Para dirimir eventuais dúvidas ou questões relativas a ela, as partes elegem o Foro da Comarca de São Paulo/SP, com exclusão de qualquer outro.
+Data da última atualização: 20/01/2022.
+</string>
+    <string name="botaoFechar">botaoFechar</string>
+    <string name="SetaVoltar">Seta Voltar</string>
+    <string name="Hello">Olá, Seja Bem Vindo</string>
+    <string name="meusDados">Meus Dados</string>
+    <string name="termosUso">Termos de Uso</string>
+    <string name="politcsPrivate">Politicas de Privacidade</string>
+    <string name="aboutVersion">Sobre esta Versão</string>
+    <!--  Titulo e Descrição de Termos  -->
+    <string name="termos">TERMOS DE USO E POLÍTICAS DE PRIVACIDADE</string>
+    <string name="termosTxt">Em sinergia aos nossos princípios e visando garantir a transparência em nossas relações, este aplicativo é disponibilizado para que você conheça mais dos produtos, serviços e campanhas Pizzaria Madri.
+\n Os presentes Termos de Uso, em conjunto à Política de Privacidade, regem o aplicativo do Pizzaria e a relação dos seus usuários com a empresa. Se, após ler estes termos de uso e nossa Política de
+\n Privacidade, você não entender ou concordar com algum ponto,
+\n pedimos que interrompa a navegação e entre em contato
+\n conosco, através do SAC - Alô Tia Eda.
+</string>
+    <string name="termos01Title">1. SOBRE O APLICATIVO</string>
+    <string name="termos02Title">2. PRODUTOS</string>
+    <string name="termos03Title">3. FORMAS DE ENTREGA</string>
+    <string name="termos04Title">4. CADASTRO</string>
+    <string name="termos05Title">5. PRECISA DE AJUDA?</string>
+    <string name="termos06Title">6. NOTIFICAÇÕES</string>
+    <string name="termos07Title">7. ENCONTRE UM PIZZARIA</string>
+    <string name="termos08Title">8. MEUS ENDEREÇOS</string>
+    <string name="termos09Title">9. CUPONS</string>
+    <string name="termos10Title">10. CLUBE DE FIDELIDADE "PIZZARIA"</string>
+    <string name="termos11Title">11. PROPRIEDADE INTELECTUAL</string>
+    <string name="termos12Title">12. LIMITAÇÃO DE RESPONSABILIDADE</string>
+    <string name="termos13Title">13. SEGURANÇA</string>
+    <string name="termos14Title">14. PROTEÇÃO DE DADOS PESSOAIS</string>
+    <string name="termos15Title">15. CONSIDERAÇÕES FINAIS E FORO</string>
+    <!--  Texto Termos  -->
+    <string name="termos01">1.1. O aplicativo é uma plataforma de divulgação e comercialização de nossos produtos, serviços, ações e campanhas promocionais e/ou publicitárias. Como tal, possui conteúdo informativo e expositivo dos produtos, serviços e parceiros, além de contar com uma área exclusiva ao cliente, que pode ser acessada mediante login e senha.\n
+    1.1.1. Por meio do aplicativo, você poderá realizar e acompanhar pedidos, basta cadastrar-se, escolher a melhor forma de entrega e o produto de interesse, e assim, concluir o pedido informando os dados bancários.\n
+    1.1.2. É possível também acessar os cupons de promoções disponíveis, localizar o Pizzaria Madri mais próximo e ainda conhecer as vantagens e se cadastrar no programa de fidelidade da Pizzaria Madri.\n
+    1.2. O acesso e uso do aplicativo independe da realização de cadastro por você, salvo quando houver a necessidade em razão de funcionalidade específica, como a compra de nossas delícias e/ou acesso da seção portal do cliente, conforme destacado nestes Termos de Uso.\n
+    1.3. Nosso aplicativo não possui nem veicula informações impróprias a menores de idade, por isso, ele está dispensado da classificação das informações por faixa etárias.
+</string>
+    <string name="termos02">2.1. O aplicativo contém informações sobre nossos produtos, como fotos, tabela nutricional, tabela de alergênicos e preços.\n
+        2.2. Além da visualização das informações, o usuário poderá comprar online, para tanto deverá observar as seguintes condições: 2.2.1. Disponibilidade. Alguns produtos podem não estar disponíveis em sua região, por isso antes de seguir com a compra deverá ser informado o CEP e o número do local de entrega, para conferência da disponibilidade em sua região.\n
+        2.2.2. Cadastro. O usuário deverá se cadastrar em nosso aplicativo.\n
+        2.2.3. Horário. O horário de atendimento do delivery é das 11:00h às 00:00h, horário de Brasília. Nos restaurantes localizados em shopping centers o serviço segue seus horários de fechamento. Em algumas regiões, temos o atendimento delivery by night, com o atendimento das 00:00m até às 02h00m.\n
+        2.2.4. Transporte. Motos adicionais podem ser necessárias para entrega de pedidos acima de R$150,00. Verifique sempre a área de cobertura e a taxa de entrega.\n
+        2.2.5. Antispam. Na finalização do pedido, uma confirmação será enviada para o e-mail cadastrado no aplicativo, caso você utilize bloqueador de spam (filtro de lixo eletrônico), liberar o seguinte endereço: pedido@pizzariamadri.com.br.\n
+        2.2.6. Lacre de proteção. Caso seu pedido seja entregue sem o lacre de proteção ou o mesmo esteja violado, entre em contato com o SAC - Alô Tia Eda pelo número (11) 5696-6000.
+</string>
+    <string name="termos03">3.1. Além da opção de entrega por delivery, é possível também selecionar a opção para retirar no balcão ou por meio do serviço de vaga exclusiva.\n
+        3.2. Em ambas as formas de entrega o seu pedido é agendado, podendo ser retirado de acordo com o horário que escolher no aplicativo.
+</string>
+    <string name="termos04">4.1. Os clientes possuem acesso a área logada do aplicativo. Para cadastro, você deverá fornecer informações verdadeiras, completas e não enganosas, devendo manter a segurança de sua conta e se responsabilizar por todos os atos praticados a partir dela.\n
+        4.2. Cada usuário tem uma conta de acesso individual, assim, você não deverá compartilhar o login e senha para acesso com outras pessoas, nem usar sua conta de forma ilícita para burlar ou prejudicar os sistemas do Pizzaria Madri. Caso você tome conhecimento da utilização indevida de sua conta ou eventual falha, você deverá comunicar de forma imediata ao Pizzaria Madri sobre o ocorrido, que poderá realizar a imediata suspensão de acesso do usuário suspeito ou promover a correção do erro apontado.\n
+        4.3. Ao se cadastrar, você reconhece que sua senha de acesso ao aplicativo é de uso pessoal e intransferível, não podendo fornecê-la a terceiros em nenhuma hipótese. Você deverá tomar todas as providências cabíveis para garantir sua confidencialidade, devendo, inclusive, efetuar o logoff para finalizar o acesso à sua página de serviços.\n
+        4.4. O nível de segurança da senha, conforme combinação de letras, números e caracteres é de sua exclusiva responsabilidade. Você também se compromete a responder integralmente por quaisquer consequências jurídicas decorrentes diretamente da perda ou extravio de sua senha, devido a um comportamento seu considerado doloso ou culposo - imprudência, negligência e imperícia.\n
+        4.5. Através da área logada, é possível não só realizar pedidos, mas também consultar e editar seus dados pessoais fornecidos, os pedidos já realizados, ter acesso ao cardápio, além do clube de fidelidade da Pizzaria Madri.\n
+        4.6. O Pizzaria Madri poderá recusar ou cancelar o acesso à área logada caso constate que existe alguma informação inverídica, sem qualquer direito de indenização.\n
+        4.7. Ao fornecer seus dados pessoais através de cadastro em nosso aplicativo, seus dados podem ser compartilhados entre grupos parceiros, como o Grupo Gennius, Mercato Express e Tendall Grill.
+</string>
+    <string name="termos05">5.1. As dúvidas sobre nossos produtos, pedidos, clube de fidelidade, como fazer sua festa no Pizzaria Madri e outros assuntos podem ser sanadas através da aba Precisa de ajuda?, disponível no menu de opções do aplicativo.\n
+        5.1.1. Sobre um pedido: As dúvidas a respeito de um pedido podem ser divididas por pedidos realizados em um de nossos restaurantes ou pelo aplicativo.\n
+        5.1.2. Sobre nossos produtos: Quando houver qualquer dúvida sobre os nossos produtos, é possível acessar a tabela nutricional ou a tabela de alergênicos que contém detalhes sobre cada um de nossos produtos.\n
+        5.1.3. Faça sua festa no Pizzaria Madri: É possível localizar o Pizzaria Madri mais próximo de você e agendar o seu evento em um de nossos restaurantes.\n
+        5.1.3.1. O agendamento ocorrerá mediante a consulta de disponibilidade do restaurante escolhido, através de telefone informado na mesma aba do aplicativo.\n
+        5.1.4. Sobre o da Pizzaria Madri: Através desta opção é possível obter informações sobre o clube de fidelidade e ainda sanar problemas relacionados aos pontos acumulados e troca de produtos.\n
+        5.1.5. Outros: Caso sua solicitação ou dúvida seja relacionada a qualquer outro assunto, você será direcionado para que um de nossos atendentes ajude você através do nosso whatsapp.
+</string>
+    <string name="termos06">6.1. Ainda, através da aba Notificações é possível ativar a opção para receber informações sobre ofertas, promoções e clube de fidelidade Pizzaria Madri por e-mail ou sms.
+</string>
+    <string name="termos07">7.1. Na aba Encontre um Pizzaria Madri, é possível encontrar o restaurante Pizzaria Madri mais próximo de você, para isso, basta informar nome da rua ou cidade desejada.
+</string>
+    <string name="termos08">8.1. Por meio da aba Meus Endereços é possível adicionar os endereços de suas preferência, assim, basta selecionar aquele que já está salvo e pedir nossas delicias.
+</string>
+    <string name="termos09">9.1. Através dos cupons disponíveis, você pode obter descontos na compra de nossas delícias, seja em nossos combos, acompanhamentos ou sobremesas.\n
+        9.2. Os cupons também podem ser utilizados nas promoções do mês ou para comprar produtos especiais Pizzaria Madri.\n
+        9.3. A utilização dos cupons não pontuam no clube de fidelidade Pizzaria Madri.
+</string>
+    <string name="termos10">
+        10.1. O clube de fidelidade Pizzaria Madri é um programa que visa recompensar aqueles que realizam o cadastro no programa e consomem nossos produtos, assim, em cada compra, é possível informar o seu CPF e acumular pontos, que poderão ser convertidos em descontos, promoções ou recompensas em nossos restaurantes participantes.\n
+        10.2. O cadastro no clube de fidelidade Pizzaria Madri poderá ser feito através do aplicativo Pizzaria Madri ou através do link: https://www.da Pizzaria Madri.com.br/ \n
+        10.3. Todas as condições e políticas do "da Pizzaria Madri" estão disponíveis e deverão ser consultadas na aba Fidelidade no aplicativo Pizzaria Madri.
+</string>
+    <string name="termos11">11.1. As informações e textos disponibilizados no aplicativo são de autoria do Pizzaria Madri obtidos de fontes públicasconsideradas confiáveis. O Pizzaria Madri periodicamente aperfeiçoa, corrige e atualiza as informações publicadas no aplicativo, porém não há como garantir que os materiais sejam os mais atuais quando do seu acesso.\n
+        11.2. As informações e o conteúdo dos links externos eventualmente indicados no aplicativo possuem caráter informativo e não são de responsabilidade e controle do Pizzaria Madri. Os tais links externos, quando o caso, são indicados para a sua conveniência, o que não implica que o Pizzaria Madri endossa o conteúdo externo ou qualquer associação de seus operadores.\n
+        11.3. Todo o conteúdo disponibilizado no aplicativo é de titularidade única e exclusiva do Pizzaria Madri ou passa pelo devido licenciamento ou cessão para a empresa. Por isso, não é concedida a você qualquer licença ou cessão de direitos de propriedade intelectual, sendo proibida a reprodução de qualquer parte do aplicativo ou de seu conteúdo, sob pena das sanções previstas na legislação aplicável.\n
+        11.4. O uso do nome GENNIUS BRASIL HOLDING DE PARTICIPAÇÕES E EMPREENDIMENTOS S.A, do aplicativo Pizzaria Madri (e ramificações), bem como os conteúdos das telas do aplicativo são propriedade do Pizzaria Madri e estão protegidos pelas leis e tratados internacionais de propriedade intelectual. O uso indevido e a reprodução total ou parcial dos referidos conteúdos são proibidos, salvo quando houver a nossa autorização expressa.
+</string>
+    <string name="termos12">12.1. Dado o caráter informativo e expositivo do aplicativo, o Pizzaria Madri não se responsabiliza por eventuais danos decorrentes da utilização indevida dos conteúdos, links externos e demais documentos disponibilizados no aplicativo, tampouco por ações tomadas por você com base em tais informações.\n
+        12.2. Considerando que não há possibilidade de termos controle sobre websites e conteúdos de terceiros, você compreende que estes Termos de Uso não são aplicáveis a terceiros - inclusive mídias sociais - ainda que você utilize tais mídias para se conectar ao aplicativo. Você sempre deverá se atentar aos termos e políticas aplicáveis aos sites de terceiros que visitar.\n
+        12.3. O Pizzaria Madri não se responsabiliza, nos limites da legislação aplicável, por quaisquer danos resultantes do uso do aplicativo, falha de equipamento, conexão, transmissão de dados, erros, interrupções, demora em sua operação, vírus de computadores, falhas no sistema de telecomunicações ou no provedor de conexão, bem como eventual incompatibilidade entre aplicativo e os navegadores de internet ou dispositivos utilizados por você.
+</string>
+    <string name="termos13">13.1. Ao continuar a navegação, você concorda em utilizar o aplicativo com boa-fé e respeitando a finalidade do conteúdo disponibilizado.\n
+        13.2. É proibida a utilização do aplicativo de qualquer maneira que possa prejudicar o seu funcionamento, inclusive, mas não limitado a tentativas de introdução de código malicioso, ataques de negação de serviço, ou abuso de qualquer defeito ou erro no aplicativo.\n
+        13.3. Qualquer intromissão, tentativa de, ou atividade que viole ou contrarie as leis vigentes no Brasil, inclusive a Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais - LGPD), tornarão o responsável passível das ações legais pertinentes, bem como à indenização por eventuais danos causados.\n
+        13.4. Ao disponibilizar o aplicativo, o Pizzaria Madri possui o compromisso de utilizar ferramentas compatíveis com OS padrões elevados e atuais de garantia de segurança, com o intuito de evitar a transmissão de códigos maliciosos e/ou arquivos corrompidos.\n
+        13.5. O Pizzaria Madri não se responsabiliza por qualquer dano, prejuízo ou perda sofridos por você em razão de falhas na internet, nos sistemas ou nos servidores por que você utilizar, ou aqueles decorrentes de condutas de terceiros, de caso fortuito ou de força maior. O Pizzaria Madri também não será responsável por qualquer vírus que possa atacar o seu equipamento em decorrência do acesso, utilização ou navegação na internet ou como consequência da transferência de dados, arquivos, imagens, textos ou áudio.
+</string>
+    <string name="termos14">14.1. Além das informações que o Pizzaria Madri poderá coletar via formulários, o aplicativo coleta dados pessoais e informações de navegação por meio de cookies, as quais poderão ser compartilhadas com fornecedores nacionais e internacionais para fins de armazenamento, disponibilização e manutenção do aplicativo, fluxos de emails, dentre outros.\n
+        14.2. A coleta, o tratamento de dados pessoais, suas respectivas finalidades e os seus direitos enquanto titular de dados são regidos por política própria, que pode ser acessada em: POLÍTICA DE PRIVACIDADE E SEGURANÇA DOS DADOS DO Pizzaria Madri
+</string>
+    <string name="termos15">15.1. Os Termos de Uso têm natureza de contrato de adesão e passam por revisões periódicas, sem que seja necessária a sua notificação prévia. Por isso, é importante que você consulte o documento para saber se continua concordando com seus termos antes de seguir com a navegação.\n
+        15.2. Por fim, é essencial mencionar que o presente documento está em conformidade e deverá ser interpretado com base nas leis vigentes na República Federativa do Brasil. Para dirimir eventuais dúvidas ou questões relativas a ele, as partes elegem o Foro da Comarca de São Paulo/SP, com exclusão de qualquer outro.
+</string>
+
+    <string name="title_activity_app">Tela inicial</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_menu">Cardápio</string>
+    <string name="title_requests">Pedidos</string>
+    <!-- Texto Fragmentos   -->
+    <string name="fragment_inicio">Inicio</string>
+    <string name="fragment_menu">Menu</string>
+    <string name="fragment_pedidos">Pedidos</string>
+    <string name="fragment_conta">Conta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_inicial">Inicial</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="Ofertas">Ofertas do mês</string>
+    <string name="viewOfertas">Ver Ofertas</string>
+    <string name="promo">Promoções</string>
+    <string name="Pizza">Pizza</string>
+    <string name="Esfirras">Esfirras</string>
+    <string name="Sobremesas">Sobremesas</string>
+    <string name="View">Tela</string>
+    <string name="Pepperoni">Pepperoni</string>
+    <string name="descPepperoni">Esta pizza é preparada com molho de tomate, queijo mussarela e fatias de pepperoni, uma combinação clássica que agrada a todos os paladares.</string>
+    <string name="valorPepperoni">R$ 38,00</string>
+    <string name="Napolitana">Napolitana</string>
+    <string name="descNapolitana">Esta pizza é preparada com molho de tomate, queijo mussarela e azeitonas pretas fatiadas, uma combinação simples e saborosa que remete à tradição italiana.</string>
+    <string name="valorNapolitana">R$ 35,00</string>
+    <string name="Portuguesa">Portuguesa</string>
+    <string name="descPortuguesa">Esta pizza é preparada com molho de tomate, queijo mussarela, presunto, ovos, cebola, pimentão e azeitonas verdes, uma combinação de sabores típicos da culinária portuguesa.</string>
+    <string name="valorPortuguesa">R$ 35,00</string>
+    <string name="Calabresa"><![CDATA[Calabresa & Requeijão]]></string>
+    <string name="descCalabresa">Esta pizza é preparada com molho de tomate, queijo mussarela, calabresa fatiada e requeijão cremoso, uma combinação de sabores marcantes e irresistíveis.</string>
+    <string name="valorCalabresa">R$ 43,00</string>
+    <string name="Queijo">Queijo Hot</string>
+    <string name="descQueijo">Esta pizza é preparada com molho de tomate, queijo mussarela, pimenta jalapeño fatiada e cream cheese, uma combinação surpreendente para os amantes de pimenta.</string>
+    <string name="valorQueijo">R$ 45,00</string>
+    <string name="Marguerita">Marguerita</string>
+    <string name="descMarguerita">Esta pizza é preparada com molho de tomate, queijo muss</string>
+    <string name="valorMarguerita">R$ 39,00</string>
+    <string name="Cogumelos">Cogumelos Vegetarianos</string>
+    <string name="descCogumelos">Pizza com cogumelos frescos, cebola roxa e pimentões coloridos fatiados, finalizada com queijo mussarela derretido e azeitonas pretas. Uma opção deliciosa para quem aprecia uma pizza vegetariana.</string>
+    <string name="valorCogumelos">R$ 48,00</string>
+    <string name="QueijoT">Queijo e Tomate</string>
+    <string name="descQueijoT">Pizza clássica com molho de tomate, queijo mussarela derretido e fatias de tomate fresco. O sabor simples, mas sempre delicioso, agrada a todos os paladares.</string>
+    <string name="valorQueijoT">R$ 35,00</string>
+    <string name="Frango">Frango com Cogumelos</string>
+    <string name="descFrango">Pizza com frango desfiado, cogumelos frescos e cebola roxa fatiada, coberta com queijo mussarela derretido e um toque de molho de tomate. Perfeita para quem busca uma opção mais leve, mas com muito sabor.</string>
+    <string name="valorFrango">R$ 50,00</string>
+    <string name="entradas">Entradas</string>
+    <string name="cardapio">Cardápio</string>
+    <string name="descBanana">Essa pizza doce é uma deliciosa combinação de banana, canela e chocolate branco gratinado. Perfeita para compartilhar com amigos e família, ela é uma ótima opção para aqueles que adoram sobremesas diferentes e saborosas.</string>
+    <string name="Banana">Pizza Doce de Banana</string>
+    <string name="valorBanana">R$ 25,00</string>
+    <string name="MeMs"><![CDATA[Pizza de M&Ms]]></string>
+    <string name="descMeMs"><![CDATA[A massa crocante e saborosa da pizza é a base perfeita para uma cobertura irresistível de chocolate cremoso e pedacinhos coloridos de M&Ms. Cada mordida é uma explosão de sabor, combinando o delicioso sabor do chocolate com a crocância dos M&Ms. Uma sobremesa divertida e deliciosa que vai agradar a todos os amantes de chocolate e doces!]]></string>
+    <string name="valorMeMs">R$ 23,00</string>
+    <string name="Morango">Pizza de Morango</string>
+    <string name="descMorango">Feita com uma massa crocante e coberta com deliciosos morangos, essa pizza doce é uma sobremesa clássica que agrada a todos. É uma ótima opção para quem quer algo doce, mas não tão pesado.</string>
+    <string name="valorMorango">R$ 25,00</string>
+    <string name="Oreo">Esfihão de Chocolate Branco com Oreo</string>
+    <string name="descOreo">Se você é fã de Oreo, não pode deixar de experimentar essa esfiha doce. Feita com a famosa bolacha, ela é uma sobremesa deliciosa e diferente.</string>
+    <string name="valorOreo">R$ 17,00</string>
+    <string name="Sonho">Esfihão Doce de Sonho de Valsa</string>
+    <string name="descSonho">Essa esfiha doce é uma verdadeira tentação para os amantes de chocolate. Feita com o famoso bombom Sonho de Valsa, ela é uma opção deliciosa e única.</string>
+    <string name="valorSonho">R$ 16,00</string>
+    <string name="Prestigio">Esfihão Doce de Prestígio</string>
+    <string name="descPrestigio">Essa esfiha doce é uma combinação perfeita de chocolate e coco. Com uma massa fofinha e recheio cremoso, ela é uma sobremesa que agrada a todos os paladares.</string>
+    <string name="valorPrestigio">R$ 16,00</string>
+    <string name="Bacalhau">Bolinhos de Bacalhau</string>
+    <string name="descBacalhau">Esta porção de bolinhos crocantes por fora e macios por dentro é preparada com bacalhau de verdade, o que garante um sabor único. É perfeita para servir como aperitivo e desfrutar de momentos de descontração com a família e amigos.</string>
+    <string name="valorBacalhau">R$ 35,20</string>
+    <string name="Bruschetta">Porção de Bruschetta</string>
+    <string name="descBruschetta">Essa porção de bruschettas é feita com pão francês torrado, tomates italianos picados, queijo parmesão, manjericão e azeite de oliva. Uma combinação de sabores deliciosa para iniciar sua refeição.</string>
+    <string name="valorBruschetta">R$ 20,00</string>
+    <string name="Croquetes">Porção de Croquetes</string>
+    <string name="descCroquetes">Estes croquetes são preparados com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. São perfeitos para acompanhar uma bebida e desfrutar de momentos de descontração.</string>
+    <string name="valorCroquetes">R$ 25,00</string>
+    <string name="Rissois">Porção de Rissóis</string>
+    <string name="descRissois">Esta porção de rissóis é preparada com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. É perfeita para servir como aperitivo e desfrutar de momentos de descontração com a família e amigos.</string>
+    <string name="valorRissois">R$ 18,00</string>
+    <string name="Abobrinha">Antepasto De Abobrinha</string>
+    <string name="descAbobrinha">Esta porção de antepasto de abobrinha é preparada com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. É perfeita para iniciar sua refeição e desfrutar de sabores surpreendentes.</string>
+    <string name="valorAbobrinha">R$ 26,00</string>
+    <string name="Berinjela">Palitinhos De Berinjela Frita</string>
+    <string name="descBerinjela">Estes palitinhos de berinjela frita são preparados com ingredientes selecionados e temperos especiais para garantir um sabor único e delicioso. São perfeitos para acompanhar uma bebida e desfrutar de momentos de descontração.</string>
+    <string name="valorBerinjela">R$ 22,00</string>
+    <string name="Pedidos">Pedidos</string>
+    <string name="numberPedido">N do Pedido</string>
+    <string name="solicitarPedido">Solicitar Pedido</string>
+    <string name="Enviar">Enviar Pedido</string>
+    <string name="formaPagamento">Forma de Pagamento:</string>
+    <string name="Dinheiro">Dinheiro</string>
+    <string name="Maquina">Maquininha</string>
+    <string name="envioP">Envio do Pedido:</string>
+    <string name="envioE">Endereço:</string>
+    <string name="numberPedidos">Número do Pedido:</string>
+
+</resources>

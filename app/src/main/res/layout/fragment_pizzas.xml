@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragments.promocoes">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/entra01"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/entrada01"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/pepperoni" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleE01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Pepperoni"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descE01"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descPepperoni"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorE01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorPepperoni"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/entra02"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/entra01"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/entrada02"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/napolitana" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleE02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Napolitana"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descE02"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descNapolitana"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorE02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorNapolitana"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/entra03"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/entra02"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/entrada03"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/portuguesa" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleE03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Portuguesa"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descE03"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descPortuguesa"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorE03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorPortuguesa"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/entra04"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/entra03"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/entrada04"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/calabresa" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleE04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Calabresa"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descE04"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descCalabresa"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorE04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorCalabresa"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/entra05"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/entra04"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/entrada05"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/queijo" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleE05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Queijo"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descE05"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descQueijo"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorE05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorQueijo"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/entra06"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/entra05"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/entrada06"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/marguerita" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleE06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Marguerita"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descE06"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descMarguerita"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorE06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorMarguerita"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pizzas07"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/entra06"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/pizza07"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/cogumelo" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleP07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Cogumelos"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descP07"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descCogumelos"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorP07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorCogumelos"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pizzas08"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/pizzas07"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/pizza08"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/queijo_tomate" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleP08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/QueijoT"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descP08"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descQueijoT"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorP08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorQueijoT"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pizzas09"
+                android:layout_width="0dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/guideline2"
+                app:layout_constraintStart_toStartOf="@+id/guideline"
+                app:layout_constraintTop_toBottomOf="@+id/pizzas08"
+                tools:ignore="MissingConstraints">
+
+
+                <ImageView
+                    android:id="@+id/pizza09"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/rounded_border"
+                    android:clipToOutline="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/frango" />
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/titleP09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/Frango"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/descP09"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/descFrango"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/valorP09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/out_regular"
+                        android:text="@string/valorFrango"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.93" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.07" />
+
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+
+</ScrollView>

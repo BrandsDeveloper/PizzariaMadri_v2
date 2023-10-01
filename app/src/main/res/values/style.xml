@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="MyTabLayoutTextStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/out_regular</item>
+        <!-- altere o tamanho da fonte aqui -->
+        <!-- adicione outros atributos de estilo, se necessário -->
+    </style>
+
+</resources>
